@@ -3,10 +3,15 @@ layout: default
 ---
 
 <section class="container">
+  <!-- <div class="profile-picture-frame">
+    <img alt="profile picture" class="profile-picture" src="/assets/profile-picture.png" />
+  </div> -->
+  <!-- <h1>Guilherme Carreiro</h1>
+  <hr /> -->
   <article itemscope itemtype="http://schema.org/BlogPosting">
     {% assign words = content | number_of_words %}
 
-    <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <p>
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: '%b %-d, %Y' }} ・ {{ words | divided_by: 200.0 | ceil }} min read

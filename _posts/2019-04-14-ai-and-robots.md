@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "AI and robots"
-date:   2019-04-14 00:00:00 -0300
+title: "AI and robots"
+date: 2019-04-14 00:00:00 -0300
+highlight: true
+image: "http://karreiro.com/assets/gopher.png"
+abstract: "Today I could test the new Kogito VSCode extension, which supports DMN models now."
 ---
 
 Some years ago I frequented mastering classes at the University of Campinas (UNICAMP). UNICAMP is an excellent university, and I was living very close to the campus, so I decided to have a different kind of _happy hour_ for some months and learn about Artificial Intelligence.
@@ -15,6 +18,7 @@ I want to share with you this demo, which is one of the projects that I could wo
 ---
 
 The main topics I presented in this video are:
+
 - FuzzyLogic - the FuzzyLogic controls the intensity of the power that the wheel joint needs to move the robot to the correct direction;
 - Pathfinding Algorithm - the algorithm helps the robot to calculate the correct trajectory to achieve the desired goal;
 - Extended Kalman filter - this theory helps the robot to estimate its current location in the room;

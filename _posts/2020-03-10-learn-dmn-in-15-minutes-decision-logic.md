@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "[Learn DMN in 15 minutes] Decision logic"
-date:   2020-03-10 00:00:00 -0300
+title: "[Learn DMN in 15 minutes] Decision logic"
+date: 2020-03-10 00:00:00 -0300
+highlight: true
+image: "http://karreiro.com/assets/gopher.png"
+abstract: "Today I could test the new Kogito VSCode extension, which supports DMN models now."
 ---
 
 In the last few weeks, I've been working a lot on the [Learn DMN in 15 minutes](http://learn-dmn-in-15-minutes.com) website.
